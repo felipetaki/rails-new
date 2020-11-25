@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 
   # verb '/path', to: 'controller#action'
   get '/answer', to: 'pages#answer'
+  get '/ask', to: 'pages#ask'
 end
